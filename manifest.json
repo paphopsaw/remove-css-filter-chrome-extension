@@ -1,6 +1,6 @@
 {
   "name": "Remove CSS Filter",
-  "description": "Remove any CSS filters applied to the body element.",
+  "description": "Remove any CSS grayscale filter.",
   "version": "1.0",
   "manifest_version": 3,
   "icons": {
