@@ -1,3 +1,6 @@
-document.querySelector("body").style.filter = "none";
-document.querySelector("html").style.filter = "none";
-window.scrollTo(0, 0);
+document.querySelectorAll("*").forEach((el) => {
+  const style = window.getComputedStyle(el);
+  if (style.filter.includes("grayscale")) {
+    el.style.setProperty("filter", "none", "important");
+  }
+});
